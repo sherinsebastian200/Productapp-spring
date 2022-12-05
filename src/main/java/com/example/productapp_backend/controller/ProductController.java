@@ -13,6 +13,12 @@ public class ProductController {
         return "Welcome to ProductApp home";
     }
 
+    @PostMapping("/add")
+    public String Addproducts()
+    {
+        return "Add products";
+    }
+
 
 
 
